@@ -1,0 +1,24 @@
+.sidebar {
+  float:left;
+  width: 10em;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-right: 1px solid #8BE2F7;
+  background-color:#E2E7E8 ;
+  text-align: left;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+  color: #54595d;
+  
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
