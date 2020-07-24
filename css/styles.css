@@ -3,9 +3,10 @@ body, html {
   height: 100%;
   margin:0;
   padding:0;
+  font-family: sans-serif;
 }
 
-.wrapper{
+/*.wrapper{
   width:900px;
   height:auto;
   margin:0 auto;
@@ -20,7 +21,7 @@ body, html {
   padding:0;
   margin:0;
  
-}
+}*/
 
 .sidebar {
   float:left;
@@ -72,22 +73,59 @@ a {
   
 }
 
-.banner {
-  padding-left: 10px;
-  margin-left: 15px;
+p {
+  font-size:14px;
 }
 
-.banner h1 {
+.jumbotron {
+  margin-left: 15%;
+}
+
+
+.display-4 {
   font-size: 25px;
+  font-weight: 600;
 }
 
-.banner span {
+span {
   color:blue;
 }
 
-.banner ul {
-  
-  float: right;
+
+.col-6 {
+  background-color: #CEE9D9;
+  border: 2px solid #85ECAB;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
+.grn-head {
+  background-color:#85ECAB ;
+  border: 1px solid grey;
+}
 
+.col-5 {
+  background-color:#CEE9E9 ;
+  border: 2px solid #95E7EA;
+}
+
+.blu-head {
+  background-color:#95E7EA ;
+  border: 1px solid grey;
+}
+
+.col-11 {
+  background-color:#E9D0E4;
+  border: 2px solid #EAB1DD;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.pink-title {
+  background-color:#EAB1DD ;
+  border: 1px solid grey;
+}
+
+.col-11 p {
+  font-size: 14px;
+}
